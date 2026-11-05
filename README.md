@@ -1,10 +1,14 @@
 # Plataforma lúdica de cursos para niños
 
-Prototipo de una plataforma web lúdica de cursos para niños, desarrollado con FastAPI.
+Plataforma web lúdica de Ciencias para niños, desarrollada con FastAPI. El curso
+trabaja seres vivos, cuerpo humano y medio ambiente mediante misiones. Cada
+misión contiene actividades y entrega una insignia únicamente cuando el
+aprendiz completa todas sus actividades.
 
-- **Aprendiz:** Nombre Apellido
-- **Curso y mecánica:** (complete)
-- **Aplicación publicada:** (complete con la URL de Render)
+- **Aprendiz:** Camilo Jose Caballero Gonzalez
+- **Curso:** Ciencias (seres vivos, cuerpo humano y medio ambiente)
+- **Mecánica:** Misiones e insignias
+- **Aplicación publicada:** Pendiente de despliegue en Render
 
 ## Ejecutar en su equipo
 
@@ -27,6 +31,17 @@ Abra http://127.0.0.1:8000 en el navegador. La documentación de la API está en
 pytest -v
 ruff check .
 ```
+
+## API de misiones
+
+- `GET /api/misiones` lista las misiones de Ciencias.
+- `POST /api/misiones/{mision_id}/actividades/{actividad_id}/completar`
+  registra una actividad. Envíe `{"participante_id": "un-identificador"}`.
+  La respuesta indica si se otorgó la insignia al completar la misión.
+
+El progreso actual se conserva en memoria para este prototipo. Al incorporar
+persistencia, el servicio puede conectarse a los modelos SQLModel sin cambiar
+el contrato de las rutas.
 
 ## Estructura
 

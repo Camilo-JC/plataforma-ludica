@@ -4,9 +4,9 @@ Reemplace los valores de ejemplo con sus datos. La página de inicio,
 la API y el script entregar.py los leen de este archivo.
 """
 
-APRENDIZ = "Nombre Apellido"
-CURSO = "Curso asignado"
-MECANICA = "Mecánica asignada"
+APRENDIZ = "Camilo Jose Caballero Gonzalez"
+CURSO = "Ciencias: seres vivos, cuerpo humano y medio ambiente"
+MECANICA = "Misiones e insignias"
 
 # Dirección pública de la aplicación desplegada.
 # Ejemplo: "https://plataforma-ludica-abcd.onrender.com"
