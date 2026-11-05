@@ -8,7 +8,7 @@ aprendiz completa todas sus actividades.
 - **Aprendiz:** Camilo Jose Caballero Gonzalez
 - **Curso:** Ciencias (seres vivos, cuerpo humano y medio ambiente)
 - **Mecánica:** Misiones e insignias
-- **Aplicación publicada:** Pendiente de despliegue en Render
+- **Aplicación publicada:** https://plataforma-ludica-4yc2.onrender.com
 
 ## Ejecutar en su equipo
 
