@@ -1,11 +1,5 @@
-"""Datos de identificación del proyecto.
-
-Reemplace los valores de ejemplo con sus datos. La página de inicio,
-la API y el script entregar.py los leen de este archivo.
-"""
-
 APRENDIZ = "Camilo Jose Caballero Gonzalez"
-CURSO = "Ciencias: seres vivos, cuerpo humano y medio ambiente"
+CURSO = "Ciencias"
 MECANICA = "Misiones e insignias"
 
 # Dirección pública de la aplicación desplegada.
