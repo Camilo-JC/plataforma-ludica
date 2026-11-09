@@ -20,6 +20,10 @@ class DatosProyecto(BaseModel):
     version: str
 
 
+class VersionRespuesta(BaseModel):
+    version: str
+
+
 class ActividadRespuesta(BaseModel):
     id: str
     titulo: str
@@ -59,6 +63,12 @@ def datos_proyecto():
         mecanica=proyecto.MECANICA,
         version=proyecto.VERSION,
     )
+
+
+@router.get("/api/version", response_model=VersionRespuesta, tags=["Sistema"])
+def version():
+    """Devuelve la versión actual de la aplicación."""
+    return VersionRespuesta(version=proyecto.VERSION)
 
 
 @router.get("/api/misiones", response_model=list[MisionRespuesta], tags=["Misiones"])
