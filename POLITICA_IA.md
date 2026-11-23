@@ -13,6 +13,9 @@ Me comprometo a cumplir las siguientes reglas durante el desarrollo de este proy
 | --- | --- |
 | (complete) | (complete) |
 
-**Nombre:** (complete)
 
-**Fecha:** (complete)
+## Aceptación
+Leí esta política y la acepto. Respondo por todo lo que entrego, lo haya escrito o no la IA.
+
+- Nombre: Camilo José Caballero González
+- Fecha: 2026-11-23
